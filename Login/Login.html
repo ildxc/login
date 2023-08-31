@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_signup">
+            <form method="post">
+                <h1>Sign-up</h1>
+                <label>First name <span>*</span></label>
+                <input type="text" name="first_name" id="first_name" placeholder="first name" required>
+                <label>Last name <span>*</span></label>
+                <input type="text" name="last_name" id="last_name" placeholder="last_name" required>
+                <label>Email <span>*</span></label>
+                <input type="email" name="email" id="email" placeholder="email" required>
+                <label>Password <span>*</span></label>
+                <input type="password" name="password" id="password" placeholder="password" required>
+                <label>Confirm password <span>*</span></label>
+                <input type="password" name="confirmpwd" id="confirmpwd" placeholder="confirm password" required>
+                <input type="submit" value="Sign-up" id="btn">
+            </form>
+        </div>
+
+        <div class="form_login">
+            <form method="post">
+                <h1>Login</h1>
+                <label>Email</label>
+                <input type="email" name="email" id="email" placeholder="email">
+                <label>Password</label>
+                <input type="password" name="password" id="password" placeholder="password">
+                <input type="submit" value="Log-in" id="btn">
+                <label id="forgotpwd">Forgot password?</label>
+                <label for="btn2" id="noacc">Don't have an account? <span id="signup">sign up</span></label>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

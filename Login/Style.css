@@ -1,0 +1,148 @@
+ body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 84, 179);
+}
+
+.container {
+    overflow: hidden;
+    height: 580px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.5rem;
+}
+
+ .form_login{
+  background-color:aqua ;
+   width: 400px;
+   height: 400px;
+
+ }
+
+ .form_login h1 {
+   text-align: center;
+   padding: 0 0 20px 0;
+   border-bottom: 1px solid silver;
+   width: 100%;
+   color: blue;
+ }
+ 
+ .form_login form{
+   padding: 0 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center ;
+   text-align: left;
+ }
+ .form_login label{
+   width: 70%;
+   padding: 0 5px;
+   height: 30px;
+   font-size: 16 px;
+ }
+
+ .form_login input{
+  height: 25px;
+  width: 70%;
+ }
+
+ #forgotpwd{
+  width: 70%;
+  font-style: oblique;
+  text-align: center;
+ }
+
+ #forgotpwd:hover{
+  transition-duration: 500ms;
+  color: blue;
+ }
+ 
+
+ #noacc{
+  font-style: oblique;
+  text-align: center;
+  width: 70%;
+ }
+
+ #noacc span{
+  color: blue;
+ }
+ 
+
+ #noacc span:hover{
+  transition-duration: 500ms;
+  color:rgb(161, 161, 250);
+ }
+
+ #btn{
+   width: 55%;
+   height: 40px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   border-radius: 5px;
+   background-color: rgb(144, 144, 245);
+   border: none;
+ }
+
+ #btn:hover{
+  transition-duration: 500ms;
+  color: blanchedalmond;
+ }
+
+ /*------------------------------------------sign-up------------------------------------------------------------*/
+
+ .form_signup{
+  width: 400px;
+  height: 500px;
+  background: rgb(255, 255, 255);
+}
+
+.form_signup h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  width: 100%;
+  color: blue;
+}
+
+.form_signup form{
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  text-align: left;
+}
+.form_signup label{
+  width: 70%;
+  padding: 0 5px;
+  height: 30px;
+  font-size: 16 px;
+}
+
+.form_signup span{
+color: red;
+}
+
+.form_signup input{
+ height: 25px;
+ width: 70%;
+}
+#btn{
+  width: 55%;
+  height: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  background-color: rgb(144, 144, 245);
+  border: none;
+}
+
+#btn:hover{
+ transition-duration: 500ms;
+ color: blanchedalmond;
+}
